@@ -39,9 +39,3 @@ def roman_to_int(s):
         prev_value = value
     
     return total
-
-roman_input = input("Digite um número romano: ").upper()
-
-
-print("O Número decimal equivalente é:", roman_to_int(roman_input))
-  
